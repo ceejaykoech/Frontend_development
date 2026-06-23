@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sematic HTML example </title>
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+      }
+      
+      body{
+        background-color: #f4f4f4;
+        padding: 20px;
+      }
+      header{
+        background-color: #334155;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      nav{
+        background-color: #1e293b;
+        color: white;
+        padding: 10px;
+        text-align: center;
+      }
+      nav a{
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+      }
+        main{
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        section{
+            background: white;
+            padding: 20px;
+            flex: 3;
+            border-radius: 10px;
+        }
+        article{
+            background: white;
+            padding: 15px;
+            margin-top: 15px;
+            border-radius: 8px;
+        }
+        aside{
+            background: white;
+            padding: 20px;
+            flex: 1;
+            border-radius: 10px;
+        }
+        footer{
+            background-color: #1e293b;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        figure{
+            margin-top: 15px;
+            text-align: center;
+        }
+        figure img{
+            width: 100%;
+           border-radius: 10px;
+        }
+        figcaption{
+                margin-top: 10px;
+                font-style: italic;
+                
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My Sematic Website</h1>
+        <p>Using sematic HTML to improve SEO and accessibility.</p>
+    </header>
+    <!--NAVIGATION-->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Courses</a>
+        <a href="#">Contact</a>
+    </nav>
+    <!--MAIN CONTENT-->
+    <main>
+        <!--SECTION-->
+        <section>
+            <h2>Frontend Development</h2>
+            <p>
+Sematic HTML is the use of HTML tags that convey the meaning of the content they contain.
+By using sematic HTML, you can improve the SEO and accessibility of your website, making it easier for search engines and screen readers to understand the structure of your page and the content it contains.
+            </p>
+            <!--ARTICLE-->
+            <article>
+                <h3>What is Sematic HTML?</h3>
+                <p>Sematic HTML uses tags that clearly describe the content they contain.</p>
+            </article>
+            <!--FIGURE-->
+            <figure>
+                <img src="https://via.placeholder.com/600x250" alt="Frontend Image">
+                <figcaption>
+                   Sematic HTML webpage structure.
+                </figcaption>
+            </figure>
+        </section>
+        <!--SIDEBAR-->
+        <aside>
+            <h3>Related Topics</h3>
+            <ul>
+               <li>HTML Basics</li>
+               <li>CSS Styling</li>
+               <li>JavaScript</li>
+               <li>Responsive Design</li>
+            </ul>
+        </aside>
+    </main>
+    <!--FOOTER-->
+    <footer>
+      <p>&copy; 2026 Frontend Development.</p>
+    </footer>
+    
+</body>
+</html>

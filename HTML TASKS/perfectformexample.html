@@ -1,0 +1,62 @@
+<html>
+    <!DOCTYPE html>
+<head>
+    <title>Student Registration Form</title>
+
+</head>
+<body>
+    
+        <h1>Student Registration Form</h1>
+        <p>Please fill in the form below.</p>
+
+    <form>
+        <!--Full Name-->
+        <label for="Fullname">Full Name:</label><br>
+        <input type="text" id="Fullname" placeholder="Full Name"><br><br>
+        <!--Email-->
+        <label for="Email">Email Address:</label><br>
+        <input type="email" id="Email" placeholder="example@gmail.com"><br><br>
+
+        <!--Password-->
+        <label for="Password">Password:</label><br>
+        <input type="password" id="Password" placeholder="Enter your password"><br><br>
+
+        <!--Age-->
+        <label for="Age">Age:</label><br>
+        <input type="number" id="Age" placeholder="Enter your age"><br><br>
+
+        <!--Date-->
+        <label for="Date">Date of Birth:</label><br>
+        <input type="date" id="Date"><br><br>
+
+        <!--Gender-->
+        <label for="Gender">Gender:</label><br>
+
+        <input type="radio" id="male" name="gender">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender">
+        <label for="female">Female</label><br><br>
+
+        <!--Course Selection-->
+        <label for="course">Choose Course:</label>,<br>
+        <select id="course">
+            <option >Web Development</option>
+            <option >Graphic Design</option>
+            <option >Cyber Security</option>
+            <option >Data Science</option>
+        </select><br><br>
+
+        <!--Message-->
+        <label for="message">Why do you want to join this course?</label><br>
+        <textarea id="message" rows="5" cols="30" placeholder="Write here..."></textarea><br><br>
+        
+        <!--Checkbox-->
+        <input type="checkbox" id="terms">
+        <label for="terms">I agree to the terms and conditions</label><br><br>
+
+        <!--Submit Button-->
+        <button type="butt">Create Account</button><br><br>    
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasty Bites Restaurant</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial;
+
+
+        }
+        body{
+            background-color: #f4f4f4;
+            
+        }
+        /*HEADER*/
+        header{
+            background-color: #b91c1c;
+            color: #fff;
+            padding: 25px;
+            text-align: center;
+        }
+           header h1{
+            margin-bottom: 10px;
+           }
+           /*NAVIGATION*/
+              nav{
+                background-color: #1e293b;
+                padding: 15px;
+                text-align: center;
+              }
+                nav a{
+                    color: #fff;
+                    text-decoration: none;
+                    margin: 0 15px;
+                    font-weight: bold;
+                }
+                /*MAIN LAYOUT*/
+                main{
+                    display: flex;
+                    padding: 20px;
+                    gap: 20PX;
+
+                }
+            /* NEW SECTION */
+            section{
+                flex: 3;
+
+            }
+              /*ARTICLE*/
+                article{
+                    background-color: #fff;
+                    padding: 20px;
+                    margin-bottom: 20px;
+                    border-radius: 10px;
+                    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+                }
+                article h2{
+                    margin-bottom: 10px;
+                    color: #0f172a;
+                }
+               /*IMAGE*/
+               figure{
+                margin-top: 15px;
+               
+               }
+                figure img{
+                 width: 100%;
+                 border-radius: 10px;
+                }
+                figcaption{
+                    text-align: center;
+                    margin-top: 10px;
+                    font-style: italic;
+                }
+                /*ASIDE*/
+                aside{
+                    flex: 1;
+                    background-color: #fff;
+                    padding: 20px;
+                    border-radius: 10px;
+                    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+                }
+                    aside h3{
+                        margin-bottom: 15px;
+                        color: #0f172a;
+                    }
+                    aside ul{
+                        list-style: none;
+                    }
+                    aside ul li{
+                        margin-bottom: 10px;
+                        border-bottom: 1px solid #ddd;
+                        padding-bottom: 10px;
+                    }
+                    /*FOOTER*/
+                    footer{
+                        background-color: #0f172a;
+                        color: #fff;
+                        text-align: center;
+                        padding: 20px;
+                        margin-top: 20px;
+                    }
+                    /*RESPONSIVE*/
+                    @media (max-width: 768px){
+                        main{
+                            flex-direction: column;
+                        }
+                        nav a{
+                            display: block;
+                            margin: 10px 0;
+                        }
+                    }
+  </style>
+</head>
+<body>
+    <!--HEADER-->
+    <header>
+        <h1>Global News Today</h1>
+        <p>Your Trusted Sources for Daily News</p>
+    </header>
+    <!--NAVIGATION-->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Politics</a>
+        <a href="#">Sports</a>
+        <a href="#">Technology</a>
+        <a href="#">Business</a>
+    </nav>
+
+    <!--MAIN CONTENT-->
+    <main>
+
+        <!--NEWS SECTION-->
+        <section>
+
+    <!--ARTICLE 1-->
+            <article>
+               
+        <h2>Technology Conference 2026</h2>
+        <p>Developers and tech companies gathered today to showcase their latest innovations in Artificial Intelligence,cloud computing and cybersecurity.</p>
+        <figure>
+            <img src="https://via.placeholder.com/700*300" alt="Technology Conference">
+            <figcaption>
+                Global technology conference event
+            </figcaption>
+        </figure>
+    </article>
+
+    <!--ARTICLE 2-->
+        <article>
+            <h2> Sport Championship Finals</h2>
+            <p>
+                The championship finals took place last night, with an intense match between the top two teams. Fans were on the edge of their seats as the game went into overtime, ultimately resulting in a thrilling victory for the underdog team.
+            </p>
+           </article>
+
+
+           <!--ARTICLE 3-->
+           <articles>
+            <h2>New Business Hub Opens </h2>
+            <p>
+                Economists released their latest report on the global economic outlook, highlighting both challenges and opportunities for growth in the coming year. Key factors include trade policies, technological advancements, and geopolitical tensions.
+            </p>
+              </articles>
+              </section>
+                <!--SIDEBAR-->
+                <aside>
+                    <h3>Trending News</h3>
+                    <ul>
+                        <li>🔥AI transforming industries</li>
+                        <li>⚽Championship Finals Highlights</li>
+                        <li>📈Global stock market update</li>
+                        <li>💻New software engineering trends</li>
+                        <li>🌎climate change summit begins</li>
+                    </ul>
+                    
+    <!--FOOTER-->
+    <footer>
+        <p>&copy; 2026 Global News Today. All rights reserved.</p>
+    </body>
+    </html>
+</footer>
+                </main>
+</aside>

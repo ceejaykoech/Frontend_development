@@ -1,0 +1,209 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Website</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial,sans-serif;
+        }
+        body{
+            background-color: #f5f5f5;
+
+        }
+        /*HEADER*/
+        header{
+            background-color: #0f172a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+
+        }
+        /*NAVIGATION*/
+        nav{
+            background-color: #1e293b;
+            padding: 15px;
+            text-align: center;
+
+        }
+        nav a{
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            
+        }
+        nav a:hover{
+            color: #38bdf8;
+        }
+        /*MAIN*/
+        main{
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+        }
+        /*SECTION*/
+        section{
+            flex: 3;
+        }
+        /*ARTICLES*/
+    article{
+        background-color: white;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+    } 
+    article h2{
+        margin-bottom: 10px;
+        color:#0f172a;
+    }
+     
+    article p{
+        line-height: 1.6;
+        
+    }
+    /*ASIDE*/
+    aside{
+        flex: 1;
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        height: fit-content;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+    }
+
+    aside h3{
+        margin-bottom: 15px;
+        color: #0f172a;
+
+    }
+
+    aside ul{
+        list-style: none;
+        
+    }
+    aside ul li{
+        margin-bottom: 10px;
+
+    }
+    /*FIGURE*/
+    figure{
+        margin-top: 15px;
+
+    }
+    figure img{
+        width: 100%;
+        border-radius: 10px;
+
+    }
+    figcaption{
+        text-align: center;
+        margin-top: 10px;
+        font-style: italic;
+
+    }
+
+    /*FOOTER*/
+    footer{
+        background-color: #0f172a;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        margin-top: 20px;
+    }
+    /*RESPONSIVE*/
+    @media(max-width:768px){
+
+        main{
+             flex-direction: column;
+
+        }
+        nav a{
+            display: block;
+            margin: 10px 0;
+
+        }
+        
+    }
+    
+</style>
+</head>
+<body>
+    <!--HEADER-->
+    <header>
+        <h1>Bright Future Academy</h1>
+        <p>Learning Today,Leading Tomorrow</p>
+    </header>
+    
+    <!--NAVIGATION-->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Courses</a>
+        <a href="#">Admission</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <!-- MAIN CONTENT-->
+     <main>
+
+         <!--MAIN SECTION-->
+        <section>
+            <!--ARTICLE 1-->
+            <article>
+                <h2>Welcome to Our School</h2>
+                <p>At Bright Future Academy, we are committed to providing a 
+                    nurturing and stimulating environment for our students.
+                     Our dedicated faculty and staff work tirelessly to ensure
+                      that every student receives a high-quality education that prepares them for success in the future.</p>
+                <figure>
+                    <img src="https://via.placeholder.com/700x300" 
+                    alt="School Building">
+                    <figcaption>
+                    </figcaption>
+                </figure>
+            </article>
+            
+            <!--ARTICLE 2-->
+            <article>
+                <h2>Our Programs</h2>
+                <p>
+                    We offer a wide range of courses designed to cater to the diverse interests and talents of our students. 
+                    From science and technology to arts and humanities, our curriculum is designed to foster creativity, 
+                    critical thinking, and a love for learning.
+                </p>
+             </article>
+             <!--ARTICLE 3-->
+                <article>
+                    <h2>Upcoming Events</h2>
+                    <p>
+                        Join us for our annual Science Fair on March 15th, where students will showcase their innovative projects and experiments.
+                         Don't miss our Spring Concert on April 20th, featuring performances by our talented music students
+                        </p>
+                </article>
+        </section>
+        <!--ASIDE-->
+        <aside>
+            <h3>Quick Links</h3>
+            <ul>
+                <li>📢New admissions open</li>
+                <li>🏆students win coding competition</li>
+                <li>💻New computer lab launched</li>
+                <li>📚Library expansion completed </li>
+            </ul>
+        </aside>
+     </main>
+     <!--FOOTER-->
+    <footer>
+        <p>&copy; 2026 Bright Future Academy. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+Our modern learning environment

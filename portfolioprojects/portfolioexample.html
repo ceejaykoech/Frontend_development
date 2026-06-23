@@ -1,0 +1,159 @@
+<html>
+    <!DOCTYPE html>
+<head>
+  <title>Responsive Profile Page</title>
+
+  <style>
+
+    body {
+      font-family: Arial;
+      background-color: lightblue;
+      margin: 20px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      border: 2px solid black;
+      gap: 20px;
+    }
+
+    .text-section {
+      width: 60%;
+    }
+
+    .text-section h1 {
+      color: darkblue;
+    }
+
+    .text-section p {
+      font-size: 18px;
+      color: darkgreen;
+    }
+
+    .image-section img {
+      width: 250px;
+      border-radius: 15px;
+      border: 3px solid black;
+    }
+
+    .hobbies {
+      margin-top: 30px;
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      border: 2px solid gray;
+    }
+
+    .hobbies h2 {
+      color: darkred;
+    }
+
+    .hobbies li {
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+
+    .link-section {
+      margin-top: 30px;
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      border: 2px solid gray;
+    }
+
+    .link-section a {
+      color: blue;
+      font-size: 18px;
+      text-decoration: none;
+    }
+
+    /* RESPONSIVE DESIGN */
+
+    @media (max-width: 700px) {
+
+      .container {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .text-section {
+        width: 100%;
+      }
+
+      .image-section img {
+        width: 180px;
+      }
+
+      .text-section p {
+        font-size: 16px;
+      }
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="text-section">
+
+      <h1>John Doe</h1>
+
+      <p>
+        Hello! I am learning frontend development.
+        I enjoy building websites using HTML and CSS.
+      </p>
+
+      <p>
+        My goal is to become a professional frontend developer.
+      </p>
+
+    </div>
+
+    <div class="image-section">
+
+      <img 
+        src="https://via.placeholder.com/250"
+        alt="Profile Photo"
+      >
+
+    </div>
+
+  </div>
+
+  <div class="hobbies">
+
+    <h2>My Hobbies</h2>
+
+    <ul>
+      <li>Coding</li>
+      <li>Football</li>
+      <li>Music</li>
+      <li>Watching movies</li>
+    </ul>
+
+  </div>
+
+  <div class="link-section">
+
+    <h2>My Favorite Website</h2>
+
+    <p>
+      Visit 
+      <a href="https://www.youtube.com">
+        YouTube
+      </a>
+    </p>
+
+  </div>
+
+</body>
+</html>
