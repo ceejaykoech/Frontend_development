@@ -1,0 +1,73 @@
+ body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom, #2196d8, #20c0c4);
+    font-family: Arial, sans-serif;
+  }
+
+  .card {
+    width: 280px;
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    
+  }
+
+  .card-header {
+    background: #f7c948;
+    padding: 30px 0;
+    height: 70px;
+  }
+
+  .card-header h2 {
+    margin: 0;
+    color: #2b2b2b;
+    font-size: 20px;
+  }
+
+  .profile-pic {
+    width:80% ;
+    height: 200px;
+    border-radius: 100%;
+    object-fit: cover;
+    margin: 25px auto 10px;
+    display: block;
+    border: 2px solid black;
+    margin-top: 20px;
+    position: relative;
+    margin-top: -60px;
+  }
+
+  .name {
+    color: #1a3a5c;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+
+  .location {
+    color: #999;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0 25px;
+  }
+
+  .stat-value {
+    color: #1a3a5c;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .stat-label {
+    color: #aaa;
+    font-size: 13px;
+  }
